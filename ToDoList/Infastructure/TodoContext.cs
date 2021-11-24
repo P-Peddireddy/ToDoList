@@ -14,6 +14,7 @@ namespace ToDoList.Infastructure
         {
         }
 
+       //adding DB
         public DbSet<TodoList> TodoList { get; set; }
     }
 }
